@@ -134,7 +134,7 @@ aws emr create-cluster \
 --name 'EMR 6.1.0 with Docker' \
 --release-label emr-6.1.0 \
 --applications Name=Livy Name=Spark \
---ec2-attributes "KeyName=mpelucchi,SubnetId=subnet-38535372" \
+--ec2-attributes "KeyName=your_key,SubnetId=subnet-123456789123" \
 --instance-type m5.xlarge --instance-count 3 \
 --use-default-roles \
 --configurations file://./emr-configuration/emr-configuration.json \

@@ -8,8 +8,8 @@
           {
              "Classification":"docker",
              "Properties":{
-                "docker.privileged-containers.registries":"local,centos,104436464649.dkr.ecr.us-east-1.amazonaws.com",
-                "docker.trusted.registries":"local,centos,104436464649.dkr.ecr.us-east-1.amazonaws.com"
+                "docker.privileged-containers.registries":"local,centos,123456789123.dkr.ecr.us-east-1.amazonaws.com",
+                "docker.trusted.registries":"local,centos,123456789123.dkr.ecr.us-east-1.amazonaws.com"
             }
           }
        ]
@@ -34,9 +34,9 @@
           "spark.executorEnv.YARN_CONTAINER_RUNTIME_TYPE":"docker",
           "spark.yarn.am.waitTime":"300s",
           "spark.yarn.appMasterEnv.YARN_CONTAINER_RUNTIME_TYPE":"docker",
-          "spark.executorEnv.YARN_CONTAINER_RUNTIME_DOCKER_IMAGE":"104436464649.dkr.ecr.us-east-1.amazonaws.com/emr-docker-test:pyspark-latest",
+          "spark.executorEnv.YARN_CONTAINER_RUNTIME_DOCKER_IMAGE":"123456789123.dkr.ecr.us-east-1.amazonaws.com/emr-docker-test:pyspark-latest",
           "spark.executor.instances":"2",
-          "spark.yarn.appMasterEnv.YARN_CONTAINER_RUNTIME_DOCKER_IMAGE":"104436464649.dkr.ecr.us-east-1.amazonaws.com/emr-docker-test:pyspark-latest"
+          "spark.yarn.appMasterEnv.YARN_CONTAINER_RUNTIME_DOCKER_IMAGE":"123456789123.dkr.ecr.us-east-1.amazonaws.com/emr-docker-test:pyspark-latest"
        }
     }
  ]
