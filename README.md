@@ -1,5 +1,6 @@
 # How simplify Spark dependency management with Docker in EMR 6.x?
 
+
 Today, pyspark users install pyspark dependencies on each host in an EMR cluster (usually with custom script or bootstrap actionds). This increase the complexity and cause many issue when the enviroment is multi-tenant or you have to run different libraries verions for different jobs (e.g. in case of machine learning or deep learning applications).
 Now, we can use Docker/YARN (from Hadoop 3.x) to manage Spark Dependencies. Application dependencis can now be scope for each individual application. The dependencies will be espressed in a Dockerfile and in the corresponding Docker image.
 
